@@ -1,98 +1,137 @@
-const banner = {
-    imagen: "https://assets-metrostyle.abs-cbn.com/prod/metro.style/media/2021/may/kdrama-hometown-cha-cha-cha-netflix-tvn-desktop.jpg?ext=.jpg",
-    titulo: "Hometown Cha Cha Cha",
-    descripcion: "Yoon Hye-jin, an accomplished dentist from Seoul, goes to the idyllic seaside village of Gongjin on her late mother's birthday after her life goes awry. She spontaneously decides to open up a dental clinic, and gets to know jack-of-all-trades Hong Du-sik, also known as Chief Hong...",
-    calificacion: "4.8",
-    clasificacion: "13+",
+const getData = async () => {
+  const response = await fetch("./data.json");
+  const data = await response.json();
+  return data;
 };
 
-const recomendaciones = [
-    
-    {imagen: "https://assets-metrostyle.abs-cbn.com/prod/metro.style/media/2021/may/kdrama-hometown-cha-cha-cha-netflix-tvn-desktop.jpg?ext=.jpg",
-    titulo: "Hometown Cha Cha Cha",
-    descripcion: "Yoon Hye-jin, an accomplished dentist from Seoul, goes to the idyllic seaside village of Gongjin on her late mother's birthday after her life goes awry. She spontaneously decides to open up a dental clinic, and gets to know jack-of-all-trades Hong Du-sik, also known as Chief Hong...",
-    calificacion: "4.8",
-    clasificacion: "13+",
-},
-     {
-    imagen: "https://assets-metrostyle.abs-cbn.com/prod/metro.style/media/2021/may/kdrama-hometown-cha-cha-cha-netflix-tvn-desktop.jpg?ext=.jpg",
-    titulo: "Prueba",
-    descripcion: "Yoon Hye-jin, an accomplished dentist from Seoul, goes to the idyllic seaside village of Gongjin on her late mother's birthday after her life goes awry. She spontaneously decides to open up a dental clinic, and gets to know jack-of-all-trades Hong Du-sik, also known as Chief Hong...",
-    calificacion: "4.8",
-    clasificacion: "13+",
-},
-     {
-    imagen: "https://assets-metrostyle.abs-cbn.com/prod/metro.style/media/2021/may/kdrama-hometown-cha-cha-cha-netflix-tvn-desktop.jpg?ext=.jpg",
-    titulo: "Vincenzo",
-    descripcion: "Yoon Hye-jin, an accomplished dentist from Seoul, goes to the idyllic seaside village of Gongjin on her late mother's birthday after her life goes awry. She spontaneously decides to open up a dental clinic, and gets to know jack-of-all-trades Hong Du-sik, also known as Chief Hong...",
-    calificacion: "4.8",
-    clasificacion: "13+",
-},
-     {
-    imagen: "https://assets-metrostyle.abs-cbn.com/prod/metro.style/media/2021/may/kdrama-hometown-cha-cha-cha-netflix-tvn-desktop.jpg?ext=.jpg",
-    titulo: "One day at the time",
-    descripcion: "Yoon Hye-jin, an accomplished dentist from Seoul, goes to the idyllic seaside village of Gongjin on her late mother's birthday after her life goes awry. She spontaneously decides to open up a dental clinic, and gets to know jack-of-all-trades Hong Du-sik, also known as Chief Hong...",
-    calificacion: "4.8",
-    clasificacion: "13+",
-},
-     {
-    imagen: "https://assets-metrostyle.abs-cbn.com/prod/metro.style/media/2021/may/kdrama-hometown-cha-cha-cha-netflix-tvn-desktop.jpg?ext=.jpg",
-    titulo: "Glow up",
-    descripcion: "Yoon Hye-jin, an accomplished dentist from Seoul, goes to the idyllic seaside village of Gongjin on her late mother's birthday after her life goes awry. She spontaneously decides to open up a dental clinic, and gets to know jack-of-all-trades Hong Du-sik, also known as Chief Hong...",
-    calificacion: "4.8",
-    clasificacion: "13+",
-}
-];
+const mostrarRecomendados = async () => {
+  const listaRecomendados = document.getElementById("recomendados");
 
-const tendencias = [
-    {imagen: "https://assets-metrostyle.abs-cbn.com/prod/metro.style/media/2021/may/kdrama-hometown-cha-cha-cha-netflix-tvn-desktop.jpg?ext=.jpg",
-    titulo: "Pinocho",
-    descripcion: "Yoon Hye-jin, an accomplished dentist from Seoul, goes to the idyllic seaside village of Gongjin on her late mother's birthday after her life goes awry. She spontaneously decides to open up a dental clinic, and gets to know jack-of-all-trades Hong Du-sik, also known as Chief Hong...",
-    calificacion: "4.8",
-    clasificacion: "13+",
-},
-     {
-    imagen: "https://assets-metrostyle.abs-cbn.com/prod/metro.style/media/2021/may/kdrama-hometown-cha-cha-cha-netflix-tvn-desktop.jpg?ext=.jpg",
-    titulo: "Brooklyn 99",
-    descripcion: "Yoon Hye-jin, an accomplished dentist from Seoul, goes to the idyllic seaside village of Gongjin on her late mother's birthday after her life goes awry. She spontaneously decides to open up a dental clinic, and gets to know jack-of-all-trades Hong Du-sik, also known as Chief Hong...",
-    calificacion: "4.8",
-    clasificacion: "13+",
-},
-     {
-    imagen: "https://assets-metrostyle.abs-cbn.com/prod/metro.style/media/2021/may/kdrama-hometown-cha-cha-cha-netflix-tvn-desktop.jpg?ext=.jpg",
-    titulo: "Bridgerton",
-    descripcion: "Yoon Hye-jin, an accomplished dentist from Seoul, goes to the idyllic seaside village of Gongjin on her late mother's birthday after her life goes awry. She spontaneously decides to open up a dental clinic, and gets to know jack-of-all-trades Hong Du-sik, also known as Chief Hong...",
-    calificacion: "4.8",
-    clasificacion: "13+",
-},
-     {
-    imagen: "https://assets-metrostyle.abs-cbn.com/prod/metro.style/media/2021/may/kdrama-hometown-cha-cha-cha-netflix-tvn-desktop.jpg?ext=.jpg",
-    titulo: "One day at the time",
-    descripcion: "Yoon Hye-jin, an accomplished dentist from Seoul, goes to the idyllic seaside village of Gongjin on her late mother's birthday after her life goes awry. She spontaneously decides to open up a dental clinic, and gets to know jack-of-all-trades Hong Du-sik, also known as Chief Hong...",
-    calificacion: "4.8",
-    clasificacion: "13+",
-},
-     {
-    imagen: "https://assets-metrostyle.abs-cbn.com/prod/metro.style/media/2021/may/kdrama-hometown-cha-cha-cha-netflix-tvn-desktop.jpg?ext=.jpg",
-    titulo: "Atypical",
-    descripcion: "Yoon Hye-jin, an accomplished dentist from Seoul, goes to the idyllic seaside village of Gongjin on her late mother's birthday after her life goes awry. She spontaneously decides to open up a dental clinic, and gets to know jack-of-all-trades Hong Du-sik, also known as Chief Hong...",
-    calificacion: "4.8",
-    clasificacion: "13+",
-}
-];
+  const data = await getData();
+  data.recomendaciones.forEach((movie) => {
+    const carta = document.createElement("li");
 
-const listaRecomendados = document.querySelector("#recomendados");
-
-recomendaciones.forEach(movie => {
-console.log(movie);
-
-    const imagenContenedor = document.createElement('div');
+    const imagenContenedor = document.createElement("div");
     imagenContenedor.classList.add("imagen");
 
-    const imagen = document.createElement('img');
-    imagen.src = movie.imagen
-  
+    const imagen = document.createElement("img");
+    imagen.src = movie.imagen;
     imagenContenedor.appendChild(imagen);
-    
-    listaRecomendados.appendChild(imagenContenedor);
+    carta.appendChild(imagenContenedor);
+
+    const footer = document.createElement("div");
+    footer.classList.add("texto_abajo");
+
+    const divCalificacion = document.createElement("div");
+    divCalificacion.classList.add("stars");
+
+    const pLabel = document.createElement("p");
+    pLabel.innerText = "Ratings:";
+    divCalificacion.appendChild(pLabel);
+
+    let i = 1;
+    do {
+      const iconoEstrella = document.createElement("img");
+      iconoEstrella.src =
+        Math.floor(movie.calificacion) >= i
+          ? "iconos/yellow_fill_star.png"
+          : "iconos/yellow_outline_star.png";
+      divCalificacion.appendChild(iconoEstrella);
+      i = i + 1;
+    } while (i <= 5);
+    footer.appendChild(divCalificacion);
+
+    const bookmarkContenedor = document.createElement("div");
+    bookmarkContenedor.classList.add("bookmark");
+    const bookmarkIcon = document.createElement("img");
+    bookmarkIcon.src = "iconos/baseline_bookmark_border_white_48dp.png";
+    bookmarkContenedor.appendChild(bookmarkIcon);
+    footer.appendChild(bookmarkContenedor);
+    carta.appendChild(footer);
+
+    listaRecomendados.appendChild(carta);
   });
+};
+
+mostrarRecomendados();
+
+const mostrarTendencias = async () => {
+  const listaTendencias = document.getElementById("tendencias");
+  const data = await getData();
+
+  data.tendencias.forEach((movie) => {
+
+const carta = document.createElement("li");
+
+const imagenContenedor = document.createElement("div");
+imagenContenedor.classList.add("imagen");
+const imagen = document.createElement("img");
+imagen.src = movie.imagen;
+imagenContenedor.appendChild(imagen);
+carta.appendChild(imagenContenedor);
+
+const footer = document.createElement("div");
+footer.classList.add("texto_abajo");
+
+const calificacion = document.createElement("div");
+calificacion.classList.add("stars");
+
+const texto = document.createElement("p");
+texto.innerText = "Ratings:";
+calificacion.appendChild(texto);
+
+let i = 1;
+    do {
+      const iconoEstrella = document.createElement("img");
+
+      iconoEstrella.src =
+        Math.floor(movie.calificacion) >= i
+          ? "iconos/yellow_fill_star.png"
+          : "iconos/yellow_outline_star.png";
+
+      calificacion.appendChild(iconoEstrella);
+      i = i + 1;
+    } while (i <= 5);
+
+footer.appendChild(calificacion);
+
+const guardado = document.createElement("div");
+guardado.classList.add("bookmark");
+const guardadoIcon = document.createElement("img");
+guardadoIcon.src = "iconos/baseline_bookmark_border_white_48dp.png";
+guardado.appendChild(guardadoIcon);
+
+footer.appendChild(guardado);
+carta.appendChild(footer);
+listaTendencias.appendChild(carta);
+  })
+};
+
+mostrarTendencias();
+
+mostrarTendencias();
+
+const mostrarBanner = async () => {
+  const banner = document.getElementById("bannerPrincipal");
+
+  const data = await getData();
+  const dataBanner = data.banner;
+
+  banner.style.backgroundImage = `url(${dataBanner.imagen})`;
+
+  const contenidoBanner = document.createElement("div");
+  contenidoBanner.classList.add("banner_contenido");
+
+  const tituloBanner = document.createElement("div");
+  tituloBanner.classList.add("titulo_principal");
+
+  const titulo = document.createElement("h1");
+  titulo.innerText = dataBanner.titulo;
+  
+  tituloBanner.appendChild(titulo);
+  contenidoBanner.appendChild(tituloBanner);
+  banner.appendChild(contenidoBanner);
+
+}
+
+mostrarBanner();

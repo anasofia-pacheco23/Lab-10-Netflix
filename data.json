@@ -1,0 +1,138 @@
+{
+    "banner": {
+      "imagen": "./9.jpg",
+      "titulo": "Hometown Cha Cha Cha",
+      "descripcion": "Yoon Hye-jin, an accomplished dentist from Seoul, goes to the idyllic seaside village of Gongjin on her late mother's birthday after her life goes awry. She spontaneously decides to open up a dental clinic, and gets to know jack-of-all-trades Hong Du-sik, also known as Chief Hong...",
+      "calificacion": 4.8,
+      "clasificacion": "13+"
+    },
+
+    "recomendaciones": [ 
+    {
+    "imagen": "https://www.aceprensa.com/wp-content/uploads/elementor/thumbs/angel-de-la-muerte-px4ff4kn9ekwhgui340d2aj1d6kfkyqyfmrzgohv5s.jpg",
+    "titulo": "The Good Nurse",
+    "descripcion": "An overworked ICU nurse relies on her new partner, both at work and at home, until the unexpected death of a patient puts the spotlight on him.",
+    "calificacion": 4.5,
+    "clasificacion": "16+"
+},
+{
+    "imagen": "https://cdn.forbes.com.mx/2022/10/Pinocho-Guillermo-del-Toro-691x1024.jpg",
+    "titulo": "Guillermo del Toro's Pinocchio",
+    "descripcion": "A father's wish magically brings a wooden child to life in Italy, giving him the opportunity to care for it.",
+    "calificacion": 4.8,
+    "clasificacion": "10+"
+},
+     {
+    "imagen": "https://pics.filmaffinity.com/Enola_Holmes_2-359981633-large.jpg",
+    "titulo": "Enola Holmes 2",
+    "descripcion": "Enola Holmes takes on her first case as a detective, but to unravel the mystery of a missing girl, she will need the help of friends and her brother Sherlock.",
+    "calificacion": 3.5,
+    "clasificacion": "13+"
+},
+     {
+    "imagen": "https://m.media-amazon.com/images/M/MV5BYWIwYTg2Y2YtYzEwNy00Y2Y0LWFkZjktNjBlMWZhNDY2NGE0XkEyXkFqcGdeQXVyNDY5MjMyNTg@._V1_.jpg",
+    "titulo": "Vincenzo",
+    "descripcion": "At the age of 8, Park Joo-Hyeong went to Italy after he was adopted. He is now an adult and has the name of Vincenzo Cassano. He is a lawyer, who works for the Mafia as a consigliere. Because of a war between mafia groups, he flees to South Korea. In South Korea, he gets involved with Lawyer Hong Cha-Young. She is the type of attorney who will do anything to win a case. Vincenzo Cassano falls in love with her. He also achieves social justice by his own way.",
+    "calificacion": 5,
+    "clasificacion": "16+"
+},
+     {
+    "imagen": "https://m.media-amazon.com/images/M/MV5BMTcyMTMzNzE5N15BMl5BanBnXkFtZTcwNzg5NjM5Nw@@._V1_FMjpg_UX1000_.jpg",
+    "titulo": "Pitch Perfect",
+    "descripcion": "When a new student joins her university's all-female a cappella group, it takes the women out of their comfort zone to switch from traditional songs to a more innovative style.",
+    "calificacion": 4.3,
+    "clasificacion": "16+"
+},
+
+{
+    "imagen": "https://pics.filmaffinity.com/Pitch_Perfect_2-366824063-large.jpg",
+    "titulo": "Pitch Perfect 2",
+    "descripcion": "Beca and Fat Amy are facing their senior year of college. The Barden Bellas have become the top a cappella choir on campus and will be competing in the World Championship Choir Competition. The ensemble has a new singer, a young woman who wants to be a part of the group just as her mother did many years ago.",
+    "calificacion": 3.5,
+    "clasificacion": "13+"
+},
+
+{
+    "imagen": "https://hips.hearstapps.com/hmg-prod/images/friends-1578430228.jpg",
+    "titulo": "Friends",
+    "descripcion": "Monica, Rachel, Phoebe, Chandler, Ross and Joey are six friends in their thirties living in New York. Together they face with humor the difficulties of their age: love affairs, work, family and their own life together.",
+    "calificacion": 2.6,
+    "clasificacion": "13+"
+},
+
+{
+    "imagen": "https://m.media-amazon.com/images/M/MV5BMDNkOTE4NDQtMTNmYi00MWE0LWE4ZTktYTc0NzhhNWIzNzJiXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_FMjpg_UX1000_.jpg",
+    "titulo": "The Office",
+    "descripcion": "This hit comedy chronicles the follies of disgruntled office workers, led by incompetent boss Michael Scott, at the Dunder Mifflin paper company.",
+    "calificacion": 3.5,
+    "clasificacion": "13+"
+}
+
+],
+
+"tendencias": [
+    {
+        "imagen": "https://pics.filmaffinity.com/Est_bien_no_estar_bien_Serie_de_TV-388107679-large.jpg",
+        "titulo": "It's Okay to not be Okay",
+        "descripcion": "The drama tells the story of Moon Kang Tae, a community health worker at a psychiatric ward who doesn't have time for love, and Go Moon Young, a successful children's book author with antisocial behavior who seems to have never known love.",
+        "calificacion": 5,
+        "clasificacion": "13+"
+    },
+
+    {
+        "imagen": "https://www.semana.com/resizer/S3eOiPIKwp3v-V1Gol5v8I5Riow=/arc-anglerfish-arc2-prod-semana/public/RTM5F4V4YFHYXAU5QHBBH3U6VY.jpg",
+        "titulo": "Wednesday",
+        "descripcion": "Follows Wednesday Addams' years as a student, when she attempts to master her emerging psychic ability, thwart a killing spree, and solve the mystery that embroiled her parents. A sleuthing, supernaturally infused mystery charting Wednesday Addams' years as a student at Nevermore Academy.",
+        "calificacion": 4.8,
+        "clasificacion": "13+"
+    },
+
+    {
+        "imagen": "https://pics.filmaffinity.com/Sex_Education_Serie_de_TV-957722846-large.jpg",
+        "titulo": "Sex Education",
+        "descripcion": "It follows the lives of the students, staff and parents of the fictional Moordale Secondary School as they contend with various personal dilemmas, often related to sexual intimacy.",
+        "calificacion": 3.5,
+        "clasificacion": "16+"
+    },
+
+    {
+        "imagen": "https://pics.filmaffinity.com/Propuesta_laboral_Serie_de_TV-459472764-large.jpg",
+        "titulo": "A Business Proposal",
+        "descripcion": "It tells the story of Shin Ha-ri, an employee who accepts to go on a blind date in place of her friend, but finds out that her date is actually her boss.",
+        "calificacion": 4.5,
+        "clasificacion": "13+"
+    },
+
+    {
+        "imagen": "https://mx.web.img2.acsta.net/pictures/22/01/14/19/22/2108595.png",
+        "titulo": "All of us are Dead",
+        "descripcion": "A group of high school students are trapped in their school during a zombie virus outbreak. The students desperately try to avoid becoming zombies and escape from their school.",
+        "calificacion": 4.5,
+        "clasificacion": "16+"
+    },
+
+    {
+        "imagen": "https://pics.filmaffinity.com/Grand_Army_Serie_de_TV-518219499-large.jpg",
+        "titulo": "Grand Army",
+        "descripcion": "The series follows the lives of Joey Del Marco, Dom Pierre, Sid Pakam, Jayson Jackson and Leila Kwan Zimmer at Grand Army High School located in Brooklyn, New York , and their struggle against various challenges including rape culture, racism, sexual identity, bullying, violence and terrorism...",
+        "calificacion": 2.5,
+        "clasificacion": "16+"
+    },
+
+    {
+        "imagen": "https://i.pinimg.com/736x/87/b6/4d/87b64dd363c2f617957892ded98a2479.jpg",
+        "titulo": "Rebelde",
+        "descripcion": "The Elite Way School is an exclusive private school of international prestige where upper-class teenagers find not only a high level of education, but also the social contacts that will assure them a successful future. Among the group of kids who arrive at the summer club that precedes the school year are Mía, Miguel, Diego and Roberta, four youngsters who, despite their great differences, discover something that will unite them beyond social prejudices: their great love for music.",
+        "calificacion": 5,
+        "clasificacion": "13+"
+    },
+
+    {
+        "imagen": "https://upload.wikimedia.org/wikipedia/en/c/c3/Rupauls-drag-race-poster-md.jpg",
+        "titulo": "RuPaul's Drag Race",
+        "descripcion": "RuPaul, the host and head judge, views each tape and selects the season's competitors. Once the chosen pool of performers is on set, they film a series of episodes in which they compete against each other in various challenges. Each episode typically concludes with the removal of one contestant from the competition.",
+        "calificacion": 3.4,
+        "clasificacion": "16+"
+    }
+]
+}

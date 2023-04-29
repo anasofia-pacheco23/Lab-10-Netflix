@@ -54,7 +54,6 @@ body {
 }
 
 .banner {
-    background-image: url(9.jpg);
     background-size: cover;
     background-position: center center;
     color: white;
@@ -94,7 +93,7 @@ body {
 
 .banner div h3 span {
     font-size: 0.75em;
-    margin-left: -910px;
+    margin-left: -900px;
 }
 
 .buttons {
